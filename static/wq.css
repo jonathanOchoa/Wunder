@@ -1,0 +1,33 @@
+#user-popover {
+    left:5px !important;
+}
+#user-popover .arrow {
+    display:none
+}
+#user-popover > .inner {
+    width:200px;
+    border:1px solid #f9f9f9;
+}
+#user-popover > .inner p {
+    text-align:center;
+    margin:9px 0 2px 0;
+    font-size:13px
+}
+#user-popover .check-for-updates {
+    position:relative;
+}
+#user-popover .check-for-updates .spinner {
+    top:18px;
+    right:18px;
+    position:absolute
+}
+#user-popover .check-for-updates.checking .spinner {
+    display:block
+}
+#user-popover .check-for-updates .spinner {
+    display:none
+}
+html[dir=rtl] #user-popover {
+    right:5px !important;
+    left:auto !important
+}

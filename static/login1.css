@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700&subset=latin,latin-ext");
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&subset=cyrillic,greek");
+
+html, body, div, input {
+
+    padding:0;
+
+    margin:0
+
+}
+
+html, body, div, input, textarea, button, select {
+
+    text-rendering:optimizeLegibility;
+
+    -webkit-font-smoothing:antialiased;
+
+    -moz-osx-font-smoothing:grayscale;
+
+    -webkit-box-sizing:border-box;
+
+    -moz-box-sizing:border-box;
+
+    box-sizing:border-box;
+
+    -moz-box-sizing:border-box
+
+}
+
+body {
+
+    color:#423e3e;
+
+    background-color:#fafafa;
+
+    font-size:16px;
+
+    font-weight:400;
+
+    min-width:360px
+
+}
+
+body, input, button {
+
+    font-family:"Lato", "Open Sans", "Microsoft Yahei", "微软雅黑", STXihei, "华文细黑", "Hiragino Kaku Gothic Pro", Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', 'メイリオ', Meiryo, "Geneva CY", "Lucida Grande", "Arial Unicode MS", "Helvetica Neue", "Arial", Sans-Serif
+
+}
+
+input, textarea, button, select {
+
+    outline:none
+
+}
+
+a[target="_blank"], a[target="_blank"]:visited {
+
+    color:#2b88d9;
+
+    text-decoration:none
+
+}
+
+.ellipsis {
+
+    overflow:hidden;
+
+    -o-text-overflow:ellipsis;
+
+    text-overflow:ellipsis;
+
+    white-space:nowrap
+
+}
+
+.small, .small a {
+
+    font-size:12px;
+
+    line-height:15px
+
+}
+
+.center {
+
+    margin-left:auto;
+
+    margin-right:auto;
+
+    text-align:center
+
+}
+
+.announcement {
+
+    -webkit-box-sizing:content-box;
+
+    -moz-box-sizing:content-box;
+
+    box-sizing:content-box;
+
+    display:-webkit-box;
+
+    display:-moz-box;
+
+    display:-webkit-flex;
+
+    display:-ms-flexbox;
+
+    display:box;
+
+    display:flex;
+
+    background:#edf2fc;
+
+    min-height:30px;
+
+    border-bottom:1px solid rgba(36, 123, 198, 0.15);
+
+    font-size:14px;
+
+    -webkit-box-flex:1;
+
+    -moz-box-flex:1;
+
+    -o-box-flex:1;
+
+    box-flex:1;
+
+    -webkit-flex:1;
+
+    -ms-flex:1;
+
+    flex:1;
+
+    display:-webkit-box;
+
+    display:-moz-box;
+
+    display:-webkit-flex;
+
+    display:-ms-flexbox;
+
+    display:box;
+
+    display:flex;
+
+    -webkit-box-align:center;
+
+    -moz-box-align:center;
+
+    -o-box-align:center;
+
+    -ms-flex-align:center;
+
+    -webkit-align-items:center;
+
+    align-items:center;
+
+    -webkit-box-pack:center;
+
+    -moz-box-pack:center;
+
+    -o-box-pack:center;
+
+    -ms-flex-pack:center;
+
+    -webkit-justify-content:center;
+
+    justify-content:center;
+
+    padding:10px;
+
+    font-family:"Lato", "Helvetica Neue", "Helvetica", sans-serif;
+
+    -moz-osx-font-smoothing:grayscale;
+
+    -webkit-font-smoothing:antialiased
+
+}
+
+.announcement-content {
+
+    color:#666
+
+}
+
+a {
+
+    font-weight:bold;
+
+    color:#2b88d9;
+
+    text-decoration:none
+
+}

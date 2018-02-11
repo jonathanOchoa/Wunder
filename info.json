@@ -1,0 +1,86 @@
+
+{
+
+    "name" : {
+
+        "main" : "Wunderlist Jonathan",
+        "en"   : "Wunderlist Jonathan",
+        "es"   : "Wunderlist Jonathan"
+
+    },
+
+    "version" : "1.0",
+    "stage"   : "beta",
+    "api"     : "a100d2",
+
+    "language" : {
+
+        "default" : "en-en",
+        "list"    : [ "en-en" ]
+
+    },
+
+    "device" : {
+
+        "desktop" : {
+
+            "primary" : "main",
+            "service" : ["service.js"],
+            "common"  : {
+
+                "css"    : [],
+                "script" : [],
+                "start"  : []
+
+            },
+
+            "view" : {
+
+                "main" : {
+
+                    "template" : "main.html",
+
+                    "maxizable" : true,
+                    "resizable" : true,
+
+                    "width"  : {
+
+                        "default" : 996, 
+                        "min"     : 565,
+                        "max"     : 0
+
+                    },
+
+                    "height" : {
+
+                        "default" : 638,
+                        "min"     : 470,
+                        "max"     : 0
+
+                    },
+
+                    "css"    : ["style.css", "a.css", "all.css", "b.css", "barra.css", "c.css", "d.css", "dropbox.css", "e.css", "f.css", "g.css", "h.css", "i.css", "j.css", "k.css",
+								"l.css", "m.css", "n.css", "o.css","p.css", "q.css", "r.css", "s.css", "t.css", "u.css", "v.css", "w.css", "wa.css", "wb.css", "wc.css", "wd.css",
+								"we.css", "wf.css", "wg.css", "wh.css", "wi.css", "wj.css", "wk.css", "wl.css", "wm.css", "wn.css", "wo.css", "wp.css", "wq.css", "wr.css", "ws.css",
+								"wt.css", "wu.css", "wv.css", "login1.css", "login2.css", "crear-cuenta.css"],
+								
+                    "script" : ["script.js", "funciones_onclick.js", "funciones_onclick_login.js"],
+					"start"  : [ "start.js"]
+
+                }
+
+            }
+
+        }
+
+    },
+
+    "permission" : {
+		"service" : true,
+        "feedback" : true,
+		"integration": {"wunderlist" : true},
+		"fs" : { "create" : true, "modify" : true, "read" : true}
+
+    }
+
+}

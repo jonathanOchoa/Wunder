@@ -1,0 +1,40 @@
+@font-face {
+	font-family: EventIcons;
+	font-weight: 300;
+	font-style: normal;
+	src: url('https://d1l1r288vf46ed.cloudfront.net/v0.3.15/wundercon-light-webfont.woff2')format('woff2'),
+			url('https://d1l1r288vf46ed.cloudfront.net/v0.3.15/wundercon-light-webfont.woff')format('woff'),
+			url('https://d1l1r288vf46ed.cloudfront.net/v0.3.15/wundercon-light-webfont.ttf')format('truetype');
+}
+#wunderlist-base .stream-popover{
+	min-height:100px;
+	overflow:hidden;
+	width:300px;
+	position:relative;
+}
+#wunderlist-base .stream-popover .message:focus{
+	-webkit-box-shadow:0 0 0 1px #328ad6;
+	box-shadow:0 0 0 1px #328ad6;
+	-webkit-border-radius:3px;
+	border-radius:3px
+}
+#wunderlist-base .stream-popover .stream-header{
+	text-align:center;
+	border-bottom:1px solid rgba(0,0,0,0.06);
+}
+#wunderlist-base .stream-popover .stream-header h3{
+	margin:10px 0 9px 0
+}
+#wunderlist-base .stream-popover .stream-body{
+	max-height:370px;
+	overflow-y:auto;
+	position:relative;
+}
+#wunderlist-base .stream-popover .stream-body .loading{
+	min-height:200px
+}
+#wunderlist-base .stream-popover .stream-body .activity-center.empty{
+	padding:15px 0;
+	position:relative
+}
+		

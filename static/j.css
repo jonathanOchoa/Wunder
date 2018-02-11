@@ -1,0 +1,12 @@
+@font-face {
+    font-family:'Lato';
+    font-style:normal;
+    font-weight:400;
+    src:local('Lato Regular'), local('Lato-Regular'), url("//static.wunderlist.com/12b62dd5483e34a9dafb4df68df47d5a7118f381/fonts/Lato_normal_400_windows.woff") format('woff')
+}
+@font-face {
+    font-family:'Lato';
+    font-style:normal;
+    font-weight:700;
+    src:local('Lato Bold'), local('Lato-Bold'), url("//static.wunderlist.com/9bb54e704ccfe69383fe459f2c41b327bc261da5/fonts/Lato_normal_700_windows.woff") format('woff')
+}		

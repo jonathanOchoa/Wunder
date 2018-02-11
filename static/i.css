@@ -1,0 +1,124 @@
+.wundercon {
+    font-size:20px;
+    font-family:"Wundercon-Pictograms";
+    height:20px;
+    width:20px;
+    line-height:16px;
+    display:inline-block;
+    font-weight:normal;
+    text-align:center;
+}
+.wundercon:before {
+    content:'F'
+}
+.wundercon.plainDelete:before {
+    content:'4'
+}
+.wundercon.save.small {
+    font-size:13px
+}
+.wundercon.save:before {
+    content:'H'
+}
+.wundercon.close-circle:before {
+    content:'5'
+}
+.wundercon.close-circle:active:before {
+    content:'6'
+}
+.wundercon.info:before {
+    content:'u'
+}
+.wundercon.attachment {
+    font-size:13px;
+}
+.wundercon.attachment:before {
+    content:'Q'
+}
+.wundercon.fullscreen:before {
+    content:'h'
+}
+.wundercon.clippy:before {
+    content:'S'
+}
+.wundercon.medium {
+    font-size:18px
+}
+.wundercon.small {
+    font-size:16px
+}
+.wundercon.publish-success {
+    height:64px;
+    width:64px;
+    position:relative;
+}
+.wundercon.publish-success:before {
+    position:absolute;
+    left:0;
+    content:'√';
+    font-size:70px;
+    line-height:50px;
+    margin-left:-3px;
+    color:#b3b3b3
+}
+.wundercon.publish-success:after {
+    content:'†';
+    width:25px;
+    height:25px;
+    position:absolute;
+    background:#3b9dde;
+    -webkit-border-radius:100%;
+    border-radius:100%;
+    top:0;
+    left:0;
+    color:#fafafa;
+    font-size:24px;
+    line-height:19px;
+    padding-left:1px
+}
+.wundercon.files:before {
+    content:'o'
+}
+.wundercon.dated, .wundercon.today {
+    position:relative;
+}
+.wundercon.dated:before, .wundercon.today:before {
+    content:'E'
+}
+.wundercon.star:before {
+    content:'C'
+}
+.wundercon.starred:before {
+    content:'D'
+}
+.wundercon.plus-small:before {
+    content:','
+}
+.wundercon.offline:before {
+    content:'.'
+}
+.wundercon.speech:before {
+    font-size:20px;
+    font-family:"Wundercon-Pictograms";
+    height:20px;
+    width:20px;
+    line-height:16px;
+    display:inline-block;
+    font-weight:normal;
+    text-align:center;
+    content:'O'
+}
+html[dir=rtl] .wundercon, html[dir=rtl] svg.rtl-flip {
+    -webkit-transform:rotateY(180deg);
+    -moz-transform:rotateY(180deg);
+    -o-transform:rotateY(180deg);
+    -ms-transform:rotateY(180deg);
+    transform:rotateY(180deg);
+}
+html[dir=rtl] .wundercon.today, html[dir=rtl] svg.rtl-flip.today {
+    -webkit-transform:none;
+    -moz-transform:none;
+    -o-transform:none;
+    -ms-transform:none;
+    transform:none
+}

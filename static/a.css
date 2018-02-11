@@ -1,0 +1,160 @@
+.avatar {
+    display:block;
+    position:relative;
+    width:25px;
+    height:25px;
+}
+.avatar img {
+    -webkit-border-radius:50%;
+    border-radius:50%;
+    overflow:hidden;
+    z-index:1
+}
+.avatar:hover {
+    cursor:default
+}
+.avatar.fake-user {
+    border:none
+}
+.avatar.fake-user, .avatar.no-avatar, .avatar.unassigned {
+    -webkit-border-radius:50%;
+    border-radius:50%;
+    overflow:hidden;
+    background:#bdbcbb;
+}
+.avatar.fake-user:after, .avatar.no-avatar:after, .avatar.unassigned:after {
+    position:absolute;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    content:'k';
+    font-family:'Wundercon-Pictograms';
+    color:#fafafa;
+    text-align:center;
+    font-size:20px;
+    line-height:26px
+}
+.avatar.pro-user:after {
+    background-image:url("//static.wunderlist.com/ec72c689e6597a0b44fba03919a223b50c331c62/images/sprites/app.png");
+    background-position:-197px -111px;
+    width:16px;
+    height:16px;
+    position:absolute;
+    z-index:100;
+    content:"";
+    top:-5px;
+    right:-5px;
+    left:auto
+}
+.avatar img {
+    height:25px;
+    width:25px;
+    position:relative;
+}
+.avatar img[src=""] {
+    visibility:hidden
+}
+.avatar.tiny {
+    width:15px;
+    height:15px;
+}
+.avatar.tiny img {
+    width:15px !important;
+    height:15px !important
+}
+.avatar.tiny:before {
+    width:16px !important;
+    height:16px !important
+}
+.avatar.tiny:after {
+    font-size:16px;
+    line-height:18px
+}
+.avatar.small {
+    width:22px;
+    height:22px;
+}
+.avatar.small:before {
+    width:20px !important;
+    height:20px !important
+}
+.avatar.small:after {
+    font-size:20px;
+    line-height:22px
+}
+.avatar.small img {
+    width:22px !important;
+    height:22px !important
+}
+.avatar.almostmedium {
+    width:28px;
+    height:28px;
+}
+.avatar.almostmedium:before {
+    width:26px !important;
+    height:26px !important
+}
+.avatar.almostmedium:after {
+    font-size:22px;
+    line-height:30px
+}
+.avatar.almostmedium img {
+    width:28px !important;
+    height:28px !important
+}
+.avatar.medium {
+    width:32px;
+    height:32px;
+}
+.avatar.medium:before {
+    width:30px !important;
+    height:30px !important
+}
+.avatar.medium:after {
+    font-size:26px;
+    line-height:34px
+}
+.avatar.medium img {
+    height:32px !important;
+    width:32px !important
+}
+.avatar.medium.wunderlist-avatar {
+    background:url("//static.wunderlist.com/5a1849ec3ae07007b2b974e82164c9589d7b21e6/images/icon.png") top left !important;
+    -webkit-background-size:32px !important;
+    -moz-background-size:32px !important;
+    background-size:32px !important
+}
+.avatar.almostlarge {
+    width:60px;
+    height:60px;
+}
+.avatar.almostlarge:before {
+    display:none
+}
+.avatar.almostlarge img {
+    width:60px;
+    height:60px;
+    margin:0 auto
+}
+.avatar.large {
+    width:120px;
+    height:120px;
+}
+.avatar.large:after {
+    font-size:100px;
+    line-height:124px
+}
+.avatar.large img {
+    width:120px;
+    height:120px;
+    margin:0 auto
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5) {
+    .avatar.pro-user:after {
+        background-image:url("//static.wunderlist.com/d0a80456adb8889d3b96ca011cfaebad7bb0e2f1/images/sprites/app-retina.png") !important;
+        -webkit-background-size:357px;
+        -moz-background-size:357px;
+        background-size:357px
+    }
+}		

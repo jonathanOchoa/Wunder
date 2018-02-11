@@ -1,0 +1,182 @@
+#wunderlist-base [type=text],#wunderlist-base [type=email],#wunderlist-base [type=password],#wunderlist-base .input-fake{
+	width:100%;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	padding:6px;
+	font-family:$wlFonts;
+	font-weight:500;
+	font-size:15px;
+	color:#262626;
+	border:none;background:#fff;
+	-webkit-transition:all 0.15s ease-in-out;
+	-moz-transition:all 0.15s ease-in-out;-o-transition:all 0.15s ease-in-out;-ms-transition:all 0.15s ease-in-out;transition:all 0.15s ease-in-out;
+	-webkit-box-shadow:inset 0 0 0 1px #d6d6d6;
+	box-shadow:inset 0 0 0 1px #d6d6d6;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+}
+#wunderlist-base [type=text]:focus,#wunderlist-base [type=email]:focus,#wunderlist-base [type=password]:focus,#wunderlist-base .input-fake:focus,#wunderlist-base [type=text].focus,#wunderlist-base [type=email].focus,#wunderlist-base [type=password].focus,#wunderlist-base .input-fake.focus{
+	-webkit-box-shadow:inset 0 0 0 1px rgba(50,138,214,0.8);
+	box-shadow:inset 0 0 0 1px rgba(50,138,214,0.8)
+}
+#wunderlist-base [type=text].chromeless,#wunderlist-base [type=email].chromeless,#wunderlist-base [type=password].chromeless,#wunderlist-base .input-fake.chromeless{
+	border:none !important;
+	background:none !important;
+	-webkit-box-shadow:none !important;
+	box-shadow:none !important;
+	-webkit-border-radius:0 !important;
+	border-radius:0 !important;
+	padding:0;line-height:20px
+}
+#wunderlist-base [type=text].shortcut,#wunderlist-base [type=email].shortcut,#wunderlist-base [type=password].shortcut,#wunderlist-base .input-fake.shortcut{
+	text-align:center;
+}
+#wunderlist-base [type=text].shortcut:focus,#wunderlist-base [type=email].shortcut:focus,#wunderlist-base [type=password].shortcut:focus,#wunderlist-base .input-fake.shortcut:focus{
+	background:#fff;
+	-webkit-box-shadow:inset 0 0 0 1px rgba(50,138,214,0.8);
+	box-shadow:inset 0 0 0 1px rgba(50,138,214,0.8)
+}
+#wunderlist-base [type=text].big,#wunderlist-base [type=email].big,#wunderlist-base [type=password].big,#wunderlist-base .input-fake.big{
+	padding:9px 10px 10px
+}
+#wunderlist-base [type=text].medium,#wunderlist-base [type=email].medium,#wunderlist-base [type=password].medium,#wunderlist-base .input-fake.medium{
+	width:83px
+}
+#wunderlist-base [type=text].small,#wunderlist-base [type=email].small,#wunderlist-base [type=password].small,#wunderlist-base .input-fake.small{
+	width:30px}
+#wunderlist-base [type=text].smaller,#wunderlist-base [type=email].smaller,#wunderlist-base [type=password].smaller,#wunderlist-base .input-fake.smaller{
+	width:20px}
+#wunderlist-base [type=text].hasIcon,#wunderlist-base [type=email].hasIcon,#wunderlist-base [type=password].hasIcon,#wunderlist-base .input-fake.hasIcon{
+	padding-left:28px;}
+#wunderlist-base [type=text].hasIcon + svg,#wunderlist-base [type=email].hasIcon + svg,#wunderlist-base [type=password].hasIcon + svg,#wunderlist-base .input-fake.hasIcon + svg{
+	position:absolute;
+	top:7px;
+	left:10px;fill:#737272
+}
+#wunderlist-base [type=text][disabled],#wunderlist-base [type=email][disabled],#wunderlist-base [type=password][disabled],#wunderlist-base .input-fake[disabled]{
+	border-color:#ccc;
+	color:#737272
+}
+#wunderlist-base [type=text]:-moz-placeholder,#wunderlist-base [type=email]:-moz-placeholder,#wunderlist-base [type=password]:-moz-placeholder,#wunderlist-base .input-fake:-moz-placeholder{
+	color:#737272}
+#wunderlist-base textarea{
+	resize:none;
+	color:#262626;
+	font-weight:500}
+#wunderlist-base .select{
+	position:relative;
+	display:inline-block;
+	vertical-align:top;
+	max-width:100%;
+	-webkit-box-shadow:inset 0 0 0 1px #d6d6d6;
+	box-shadow:inset 0 0 0 1px #d6d6d6;
+	background:#fff;
+	font-weight:500;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+}
+#wunderlist-base .select:before{
+	background:url("//static.wunderlist.com/ec72c689e6597a0b44fba03919a223b50c331c62/images/sprites/app.png");
+	background-position:-342px -81px;
+	width:9px;
+	height:5px;
+	position:absolute;pointer-events:none;
+	right:8px;
+	top:14px;
+	content:''
+}
+#wunderlist-base .select select{
+	width:100%;
+	-webkit-appearance:none;
+	-moz-appearance:none;
+	-moz-appearance:radio-container;
+	border:none;
+	background:none;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+	color:#262626;
+	font-size:13px;
+	line-height:17px;
+	padding:8px 26px 8px 8px;
+	text-indent:.01px;-o-text-overflow:'';
+	text-overflow:'';
+}
+#wunderlist-base .select select:focus{
+	-webkit-box-shadow:inset 0 0 0 1px #328ad6;
+	box-shadow:inset 0 0 0 1px #328ad6;
+	margin-bottom:0
+}
+#wunderlist-base select.big{
+	width:187px}
+#wunderlist-base select.small{
+	width:130px
+}
+#wunderlist-base select.smaller{
+	width:70px
+}
+#wunderlist-base select.tiny{
+	width:50px
+}
+#wunderlist-base select.tiny-flexible{
+	min-width:50px;
+	max-width:70px
+}
+#wunderlist-base [type=radio],#wunderlist-base [type=checkbox]{
+	margin-right:5px
+}
+@media (-webkit-min-device-pixel-ratio:0){
+	#wunderlist-base [type=checkbox],#wunderlist-base [type=radio]{
+		-webkit-appearance:none;
+		-moz-appearance:none;
+		background:#fff;
+		-webkit-box-shadow:inset 0 0 0 1px #d6d6d6;
+		box-shadow:inset 0 0 0 1px #d6d6d6;
+		height:16px;
+		width:16px;
+		position:relative;
+		vertical-align:bottom;
+		-webkit-border-radius:3px;
+		border-radius:3px;
+	}
+	#wunderlist-base [type=checkbox]:focus,#wunderlist-base [type=radio]:focus{
+		-webkit-box-shadow:inset 0 0 0 1px rgba(50,138,214,0.8);
+		box-shadow:inset 0 0 0 1px rgba(50,138,214,0.8)
+	}
+	#wunderlist-base [type=checkbox]:checked:after,#wunderlist-base [type=radio]:checked:after{
+		content:'';
+		background:url("//static.wunderlist.com/ec72c689e6597a0b44fba03919a223b50c331c62/images/sprites/app.png");
+		background-position:-342px -66px;
+		width:15px;
+		height:15px;
+		font-size:20px;color:#737272;
+		position:absolute;
+		top:-2px;
+		left:2px
+	}
+	#wunderlist-base [type=radio]{
+		-webkit-border-radius:11px;
+		border-radius:11px;
+	}
+	#wunderlist-base [type=radio]:checked:after{
+		background-position:-341px -56px;
+		width:4px;height:4px;
+		top:6px;
+		left:6px
+	}
+}	
+html[dir=rtl] #wunderlist-base [type=radio],html[dir=rtl] #wunderlist-base [type=checkbox]{
+	margin-right:0;
+	margin-left:5px
+}
+html #wunderlist-base [type=text],html #wunderlist-base [type=email],html #wunderlist-base [type=password],html #wunderlist-base .input-fake{
+	font-family:"Lato","Geneva CY","Lucida Grande","Arial Unicode MS","Helvetica Neue","Helvetica","Arial",sans-serif}
+html:lang(ja_JP) #wunderlist-base [type=text],html:lang(ja_JP) #wunderlist-base [type=email],html:lang(ja_JP) #wunderlist-base [type=password],html:lang(ja_JP) #wunderlist-base .input-fake{
+	font-family:"Lato","Meiryo UI","Meiryo","メイリオ","ＭＳ Ｐゴシック","MS PGothic","Hiragino Kaku Gothic Pro","Microsoft Yahei","微软雅黑","STXihei","Arial Unicode MS","Helvetica Neue","Helvetica","Arial",sans-serif
+}
+html:lang(zh_CN) #wunderlist-base [type=text],html:lang(zh_CN) #wunderlist-base [type=email],html:lang(zh_CN) #wunderlist-base [type=password],html:lang(zh_CN) #wunderlist-base .input-fake{
+	font-family:"Lato","Microsoft Yahei","微软雅黑","STXihei","Meiryo UI","Meiryo","メイリオ","ＭＳ Ｐゴシック","MS PGothic","Hiragino Kaku Gothic Pro","Arial Unicode MS","Helvetica Neue","Helvetica","Arial",sans-serif
+}
+html:lang(zh_TW) #wunderlist-base [type=text],html:lang(zh_TW) #wunderlist-base [type=email],html:lang(zh_TW) #wunderlist-base [type=password],html:lang(zh_TW) #wunderlist-base .input-fake{
+	font-family:"Lato","Microsoft Yahei","微软雅黑","STXihei","Meiryo UI","Meiryo","メイリオ","ＭＳ Ｐゴシック","MS PGothic","Hiragino Kaku Gothic Pro","Arial Unicode MS","Helvetica Neue","Helvetica","Arial",sans-serif
+}

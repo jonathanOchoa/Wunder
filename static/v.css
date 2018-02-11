@@ -1,0 +1,311 @@
+#wunderlist-base .addTask {
+    overflow:hidden;
+    position:relative;
+    margin:14px 0;
+    padding:0 12px;
+    -webkit-border-radius:3px;
+    border-radius:3px;
+}
+.background-01#wunderlist-base .addTask {
+    background:rgba(115, 62, 39, 0.75)
+}
+.background-02#wunderlist-base .addTask {
+    background:rgba(83, 127, 112, 0.75)
+}
+.background-03#wunderlist-base .addTask {
+    background:rgba(83, 97, 127, 0.75)
+}
+.background-04#wunderlist-base .addTask {
+    background:rgba(71, 143, 138, 0.75)
+}
+.background-05#wunderlist-base .addTask {
+    background:rgba(168, 109, 67, 0.75)
+}
+.background-06#wunderlist-base .addTask {
+    background:rgba(102, 137, 100, 0.75)
+}
+.background-07#wunderlist-base .addTask {
+    background:rgba(102, 152, 68, 0.75)
+}
+.background-08#wunderlist-base .addTask {
+    background:rgba(4, 131, 183, 0.75)
+}
+.background-09#wunderlist-base .addTask {
+    background:rgba(42, 108, 136, 0.75)
+}
+.background-10#wunderlist-base .addTask {
+    background:rgba(104, 55, 87, 0.75)
+}
+.background-11#wunderlist-base .addTask {
+    background:rgba(51, 78, 131, 0.75)
+}
+.background-12#wunderlist-base .addTask {
+    background:rgba(58, 113, 115, 0.75)
+}
+.background-13#wunderlist-base .addTask {
+    background:rgba(94, 140, 156, 0.75)
+}
+.background-14#wunderlist-base .addTask {
+    background:rgba(47, 102, 118, 0.75)
+}
+.background-15#wunderlist-base .addTask {
+    background:rgba(113, 175, 140, 0.75)
+}
+.background-16#wunderlist-base .addTask {
+    background:rgba(188, 74, 58, 0.75)
+}
+.background-17#wunderlist-base .addTask {
+    background:rgba(89, 89, 89, 0.75)
+}
+.background-18#wunderlist-base .addTask {
+    background:rgba(87, 87, 87, 0.75)
+}
+.background-19#wunderlist-base .addTask {
+    background:rgba(184, 109, 130, 0.75)
+}
+.background-20#wunderlist-base .addTask {
+    background:rgba(96, 55, 57, 0.75)
+}
+.background-21#wunderlist-base .addTask {
+    background:rgba(166, 85, 65, 0.75)
+}
+.background-22#wunderlist-base .addTask {
+    background:rgba(58, 127, 147, 0.75)
+}
+.background-23#wunderlist-base .addTask {
+    background:rgba(87, 64, 51, 0.75)
+}
+.background-24#wunderlist-base .addTask {
+    background:rgba(189, 174, 136, 0.75)
+}
+.background-25#wunderlist-base .addTask {
+    background:rgba(14, 145, 197, 0.75)
+}
+.background-26#wunderlist-base .addTask {
+    background:rgba(118, 90, 152, 0.75)
+}
+.background-27#wunderlist-base .addTask {
+    background:rgba(193, 91, 61, 0.75)
+}
+.background-28#wunderlist-base .addTask {
+    background:rgba(165, 126, 136, 0.75)
+}
+.background-29#wunderlist-base .addTask {
+    background:rgba(191, 117, 85, 0.75)
+}
+.background-30#wunderlist-base .addTask {
+    background:rgba(5, 95, 235, 0.75)
+}
+#wunderlist-base .addTask .wundercon {
+    color:rgba(255, 255, 255, 0.8)
+}
+#wunderlist-base .addTask .addTask-input, #wunderlist-base .addTask .nlp-feedback {
+    font-size:16px;
+    padding:13px 60px 14px 0;
+}
+#wunderlist-base .addTask .addTask-input.is-assignable, #wunderlist-base .addTask .nlp-feedback.is-assignable {
+    padding-right:100px
+}
+#wunderlist-base .addTask .addTask-input {
+    color:#fff;
+}
+#wunderlist-base .addTask .addTask-input::-webkit-input-placeholder {
+    color:rgba(255, 255, 255, 0.6)
+}
+#wunderlist-base .addTask .addTask-input:-moz-placeholder {
+    color:rgba(255, 255, 255, 0.6)
+}
+#wunderlist-base .addTask .addTask-input:-ms-input-placeholder {
+    color:rgba(255, 255, 255, 0.6)
+}
+#wunderlist-base .addTask .nlp-feedback {
+    position:absolute;
+    top:0;
+    color:rgba(255, 255, 255, 0);
+    pointer-events:none;
+    white-space:pre;
+}
+#wunderlist-base .addTask .nlp-feedback .highlight {
+    border-bottom:1px solid #fff
+}
+#wunderlist-base .addTask .addTask-meta {
+    position:absolute;
+    top:12px;
+    right:0;
+    opacity:0;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter:alpha(opacity=0);
+}
+#wunderlist-base .addTask .addTask-meta .addTask-meta-nlp {
+    overflow:hidden;
+    white-space:nowrap;
+    color:#fff;
+    font-weight:bold;
+    text-shadow:0 1px 2px rgba(0, 0, 0, 0.8);
+    padding-top:1px
+}
+#wunderlist-base .addTask .addTask-meta .addTask-meta-star, #wunderlist-base .addTask .addTask-meta .addTask-meta-assign, #wunderlist-base .addTask .addTask-meta .addTask-meta-date {
+    opacity:.7;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+    filter:alpha(opacity=70);
+    color:#fff;
+}
+#wunderlist-base .addTask .addTask-meta .addTask-meta-star svg, #wunderlist-base .addTask .addTask-meta .addTask-meta-assign svg, #wunderlist-base .addTask .addTask-meta .addTask-meta-date svg {
+    fill:#fff
+}
+#wunderlist-base .addTask .addTask-meta .addTask-meta-star.starred, #wunderlist-base .addTask .addTask-meta .addTask-meta-assign.assigned, #wunderlist-base .addTask .addTask-meta .addTask-meta-date.dated {
+    opacity:1;
+    -ms-filter:none;
+    filter:none
+}
+#wunderlist-base .addTask .addTask-meta a {
+    cursor:default
+}
+#wunderlist-base .addTask .addTask-meta-star {
+    margin-right:9px;
+}
+#wunderlist-base .addTask .addTask-meta-star.starred svg path:last-child {
+    opacity:1;
+    -ms-filter:none;
+    filter:none
+}
+#wunderlist-base .addTask .addTask-meta-date {
+    margin-right:15px;
+    position:relative;
+}
+#wunderlist-base .addTask .addTask-meta-date .addTask-meta-date-label {
+    position:absolute;
+    top:7px;
+    left:0;
+    height:10px;
+    width:20px;
+    color:#fff;
+    font-size:8px;
+    font-weight:bold;
+    text-align:center
+}
+#wunderlist-base .addTask .addTask-meta-date .input-assign-delete {
+    position:absolute;
+    display:none;
+    top:-8px;
+    right:-8px;
+    z-index:102
+}
+#wunderlist-base .addTask .addTask-meta-date.dated:hover .input-assign-delete {
+    display:block
+}
+#wunderlist-base .addTask .addTask-meta-assign {
+    position:relative;
+    margin-right:15px;
+}
+#wunderlist-base .addTask .addTask-meta-assign .avatar, #wunderlist-base .addTask .addTask-meta-assign .input-assign-frame, #wunderlist-base .addTask .addTask-meta-assign .input-assign-delete {
+    position:absolute;
+    display:none
+}
+#wunderlist-base .addTask .addTask-meta-assign .input-assign-frame {
+    top:-3px;
+    left:-2px;
+    z-index:101
+}
+#wunderlist-base .addTask .addTask-meta-assign .input-assign-delete {
+    top:-8px;
+    right:-8px;
+    z-index:102
+}
+#wunderlist-base .addTask .addTask-meta-assign .avatar {
+    top:0;
+    left:0
+}
+#wunderlist-base .addTask .addTask-meta-assign.assigned .wundercon.assigned {
+    opacity:0;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter:alpha(opacity=0)
+}
+#wunderlist-base .addTask .addTask-meta-assign.assigned .avatar, #wunderlist-base .addTask .addTask-meta-assign.assigned svg {
+    display:block
+}
+#wunderlist-base .addTask .addTask-meta-assign.assigned .input-assign-delete {
+    display:none
+}
+#wunderlist-base .addTask .addTask-meta-assign.assigned:hover .input-assign-delete {
+    display:block
+}
+#wunderlist-base .addTask .speech-wrapper, #wunderlist-base .addTask .plus-wrapper {
+    display:block;
+    width:20px;
+    height:20px;
+    position:absolute;
+    top:13px;
+    opacity:.7;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+    filter:alpha(opacity=70);
+}
+#wunderlist-base .addTask .speech-wrapper svg, #wunderlist-base .addTask .plus-wrapper svg {
+    fill:#fff
+}
+#wunderlist-base .addTask .speech-wrapper:hover, #wunderlist-base .addTask .plus-wrapper:hover {
+    opacity:.8;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+    filter:alpha(opacity=80)
+}
+#wunderlist-base .addTask .speech-wrapper.stop, #wunderlist-base .addTask .plus-wrapper.stop {
+    opacity:1;
+    -ms-filter:none;
+    filter:none
+}
+#wunderlist-base .addTask .plus-wrapper {
+    top:14px
+}
+#wunderlist-base .addTask .addTask-input, #wunderlist-base .addTask .nlp-feedback {
+    padding-left:28px;
+    -webkit-transition:none;
+    -moz-transition:none;
+    -o-transition:none;
+    -ms-transition:none;
+    transition:none
+}
+#wunderlist-base .focus .addTask-meta {
+    opacity:1;
+    -ms-filter:none;
+    filter:none;
+}
+#wunderlist-base .focus .addTask-meta a {
+    cursor:pointer
+}
+#wunderlist-base .speech-wrapper {
+    display:none;
+}
+#wunderlist-base .speech-wrapper.stop {
+    opacity:1;
+    -ms-filter:none;
+    filter:none
+}
+html[dir=ltr] #wunderlist-base .addTask .speech-wrapper, html[dir=ltr] #wunderlist-base .addTask .plus-wrapper {
+    left:10px
+}
+html[dir=rtl] #wunderlist-base #tasks .addTask .speech-wrapper, html[dir=rtl] #wunderlist-base #tasks .addTask .plus-wrapper {
+    right:10px
+}
+html[dir=rtl] #wunderlist-base #tasks .addTask .addTask-input {
+    padding-right:28px;
+    padding-left:60px
+}
+html[dir=rtl] #wunderlist-base #tasks .addTask .addTask-meta {
+    left:0;
+    right:initial
+}
+html[dir=rtl] #wunderlist-base #tasks .addTask .addTask-meta-star, html[dir=rtl] #wunderlist-base #tasks .addTask .addTask-meta-date, html[dir=rtl] #wunderlist-base #tasks .addTask .addTask-meta-assign {
+    margin-right:initial
+}
+html[dir=rtl] #wunderlist-base #tasks .addTask .addTask-meta-star {
+    margin-left:9px
+}
+html[dir=rtl] #wunderlist-base #tasks .addTask .addTask-meta-date {
+    margin-left:15px
+}
+html[dir=rtl] #wunderlist-base #tasks .addTask .addTask-meta-assign {
+    margin-left:15px
+}
+#wunderlist-base.msie .addTask .addTask-input {
+    text-shadow:none
+}

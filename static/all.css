@@ -1,0 +1,12 @@
+ @font-face {
+
+			font-family: 'Wundercon-Pictograms';
+			src: url('//static.wunderlist.com/f20b434d7c02cbea5fdb73e0e92868546c976b3b/fonts/Wundercon-Pictograms.eot');
+			src: local('☺'),
+				 url('//static.wunderlist.com/30946e32c9fd50fb9f6605f8128c492bc7db75f2/fonts/Wundercon-Pictograms.woff') format('woff'),
+				 url('//static.wunderlist.com/a74caeab0d59cf9b3c94b633219eb2e3ff7b4484/fonts/Wundercon-Pictograms.ttf') format('truetype'),
+				 url('//static.wunderlist.com/ec47c441ecccf832fbc749e8667b803115609093/fonts/Wundercon-Pictograms.svg') format('svg'),
+				 url('//static.wunderlist.com/f20b434d7c02cbea5fdb73e0e92868546c976b3b/fonts/Wundercon-Pictograms.eot?#iefix') format('embedded-opentype');
+			font-weight: normal;
+			font-style: normal;
+		  }
